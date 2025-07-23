@@ -1,0 +1,12 @@
+Erstelle eine Gui welche auf Button Click ein TextArea hinzufügt
+beachte folgendes
+	Gui 
+			=> soll einen Titel haben
+			=> die größe soll 500 x 500 sein
+			=> beim Schließen soll das Programm enden
+			=> größe darf nicht veränderbar sein
+	Button 
+			=> soll einen ShortCut haben
+			=> Soll als Aktion ein Textarea hinzufügen
+			=> soll einen Border haben
+			=> größe 100x25	

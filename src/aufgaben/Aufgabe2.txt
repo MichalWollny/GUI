@@ -1,0 +1,20 @@
+Erstelle eine Gui, welche ein Menü besitzt und über ein Menüitem Button erstellen kann.
+Es sollen immer 3 Buttons in Reihe sein, zudem soll der Abstand zwischen 
+den Buttons immer der gleiche sein
+beachte folgendes
+	Gui	
+			=> soll einen Titel haben
+			=> die größe soll 500 x 500 sein
+			=> beim Schließen soll das Programm enden
+			=> größe darf nicht veränderbar sein
+			=> ändere die Background-Farbe
+	Menü
+		=> 2 Menü Items
+			=> eines zum schließen des Programms
+			=> eines zum Hinzufügen von einem Button
+			=> Tooltip des Items
+				=> Buttons 
+					=> beim Klicken soll das Programm schließen
+					=> flüssiges aktualisieren der Gui
+					=> mit Border
+					=> alle Buttons sollen durchnummeriert sein
