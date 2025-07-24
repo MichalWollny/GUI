@@ -55,4 +55,5 @@ public class OperationPanel extends JPanel {
         add(decimalButton);
         add(equalsButton);
     }
+
 }
