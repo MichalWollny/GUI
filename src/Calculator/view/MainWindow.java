@@ -15,7 +15,7 @@ public class MainWindow extends JFrame {
 
     private void initialize() {
 //        appFrame = new JFrame("Calculator");
-        setSize(800, 700);
+        setSize(500, 400);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridBagLayout());

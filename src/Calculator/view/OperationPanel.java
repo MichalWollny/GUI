@@ -2,6 +2,7 @@ package Calculator.view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class OperationPanel extends JPanel {
 
@@ -30,6 +31,14 @@ public class OperationPanel extends JPanel {
 
         setLayout(new GridLayout(0, 4, 2, 2));
 
+        ActionListener buttonListener = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JButton sourceButton = (JButton) e.getSource();
+                System.out.println("Button pressed: " + sourceButton.getText());
+            }
+        };
+
         add(clearButton);
         add(backspaceButton);
         add(divideButton);
@@ -54,6 +63,13 @@ public class OperationPanel extends JPanel {
         add(zeroButton);
         add(decimalButton);
         add(equalsButton);
+
+        for (Component component : this.getComponents()) {
+            if (component instanceof JButton) {
+                JButton button = (JButton) component;
+                button.addActionListener(buttonListener);
+            }
+        }
     }
 
 }
